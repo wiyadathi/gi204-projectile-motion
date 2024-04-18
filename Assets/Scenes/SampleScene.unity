@@ -642,15 +642,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f841a5d2a1b8204aae6d4c2d57a46d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1335857230}
   shootPoint: {fileID: 853599138}
-  bulletPrefab: {fileID: -7816374831507508955, guid: 3b2c2dbee3aceb2469e8b189aee08226, type: 3}
+  target: {fileID: 1335857230}
+  bulletPrefab: {fileID: 841360037624746082, guid: 7e12939431388024bb8c8c7060b0351e, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
-  - {fileID: 424827930}
   - {fileID: 1069383110}
+  - {fileID: 424827930}
   - {fileID: 1529920359}
   - {fileID: 1335857232}
