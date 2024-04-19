@@ -14,7 +14,7 @@ public class Projectile2D : MonoBehaviour
         {
             //shoot raycast to detect the mouse click position
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            Debug.DrawRay(ray.origin, ray.direction * 10f, Color.magenta, 100);
+            Debug.DrawRay(ray.origin, ray.direction * 5f, Color.magenta, 5f);
 
             //get the position of mouse click
             RaycastHit2D hit = Physics2D.GetRayIntersection(ray, Mathf.Infinity);
